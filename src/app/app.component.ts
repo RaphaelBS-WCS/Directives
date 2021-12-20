@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Directives';
+  title = 'Raclette Party';
+
+  isThisIngredientVital: boolean = true;
+  displayGuestList: boolean = true;
+  showMovies: boolean = true;
+
+  songList: string[] = ["Alejandro", "Ne me quitte pas", "Le temps est bon"];
 }
